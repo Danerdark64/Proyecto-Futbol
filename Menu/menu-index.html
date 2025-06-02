@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="menu-styles.css" />
+  <link rel="icon" href="../img/icon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js"></script>
+  <title>Pagina de futbol</title>
+</head>
+
+<body>
+  <section class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="menu bar">
+              <header class="header">
+                  <img id="lg" src="../img/Infoshow2.png" alt="icon" />
+                <div class="logo">
+                  <img class="float-end" id="lg2" src="../img/soccer-field-.png" alt="icon" />
+                </div>
+              </header>
+              <header class="header-2">
+                <div class="curso">
+                  <h1 class="decimo"> ¡BIENVENIDO 10MO! </h1>
+                </div>
+              </header>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-14 selection justify-content-center">
+              <div class="float-end">
+              <label for="alineacion">Alineacion</label>
+              <select name="seleccion" id="alineacion">
+                <option value="none" disabled selected>
+                  Selecciona una alineacion
+                </option>
+                <option value="433">4-3-3</option>
+                <option value="442">4-4-2</option>
+                <option value="451">4-5-1</option>
+                <option value="343">3-4-3</option>
+              </select>
+            </div>
+            
+            <div class="float-start">
+              <label for="name-student"> Nombre y Apellido: </label>
+              <input type="text" name="student" id="student">
+              <label for="parallel">Paralelo</label>
+              <select name="parallel" id="parallel" required>
+                <option value="" disabled selected>Seleccione una opcion</option>
+                <option value="curso1">A</option>
+                <option value="curso2">B</option>
+                <option value="curso3">C</option>
+                <option value="curso4">D</option>
+                <option value="curso5">E</option>
+                <option value="curso6">F</option>
+                <option value="curso7">G</option>
+                <option value="curso8">H</option>
+                <option value="curso9">I</option>
+                <option value="curso10">J</option>
+              </select>
+              <label for="name">Nombre de tu alineacion</label>
+              <input type="text" name="name" id="name" />
+            </div>
+          </div>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-6 soccer">
+              <div class="container" id="cancha">
+
+              </div>
+
+            </div>
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-6">
+
+              <div class="row">
+                <div class="col-md-12 players-select">
+                  <!-- <p>Seleccione los jugadores que desea</p> -->
+                  <div class="ali433">
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="menu-scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

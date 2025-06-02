@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap');
+*{
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-image: url(../img/back_body.jpeg);
+  background-repeat: repeat;
+  background-size: cover;
+  font-size: 15px;
+}
+
+img[src$=".png"] {
+  width: 80px;
+  height: 77.7px;
+}
+
+#lg{
+  width: 230px;
+  padding: 15px;
+}
+
+#lg2{
+  width: 230px;
+}
+
+.header {
+  font-family: 'Roboto Slab', serif;
+  margin: 10px;
+  background-color: #45423C;
+  color: #fff;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  flex-direction: row; 
+  justify-content: center;
+}
+
+.header-2{
+  background-color: #18183c;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  color: #fff;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(34, 36, 79);
+  width: 32%;
+  margin: auto;
+}
+
+.decimo{
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+/* .soccer img{
+width: 400px;
+height: 660px;
+display: flex;
+position: relative;
+bottom: -1cm;
+left: 3cm;
+} */
+
+.container {
+  position: relative;
+  margin: 0px auto auto auto;
+}
+
+
+.selection {
+  font-family: 'Roboto Slab', serif;
+  background-color: #021d34;
+  font-size: 15px;
+  color: #fff;
+  /* position: absolute; */
+  padding: 5px;
+  /* left: 16cm; */
+  bottom: 15cm;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0px 2px 2px 2px;
+}
+
+.players {
+  position: absolute;
+  padding: 5px;
+  left: 16cm;
+  bottom: 13cm;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+}
+
+.player-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.field-container {
+  position: relative;
+}
+
+.soccer {
+  background-image: url('../img/futbol.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  height: 690px;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+
+}
+
+
+
+.player-container {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.player-image {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+}
+
+#p1 {
+  top: 53%;
+  left: 21.7%;
+}
+
+.defensa #1 {
+  top: 45%;
+  left: 21.7%;
+}
+
+.mediocampo #5 {
+  top: 30%;
+  left: 21.7%;
+}
+
+.alineacion433 #9 {
+  top: 20%;
+  left: 30%;
+}
+
+.alineacion433 #10 {
+  top: 12.8%;
+  left: 13%;
+}
+
+.alineacion433 #8 {
+  top: 18%;
+  left: 21.7%;
+}
+
+
+.ali433 label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  /* Aumenta el tamaño de fuente para los labels */
+}
+
+/* Estilos para que los labels y selects estén en línea */
+.ali433 label,
+.ali433 select {
+  display: inline-block;
+  /* Muestra los elementos en línea uno al lado del otro */
+  margin-right: 10px;
+  /* Espacio entre el label y el select */
+}
+
+/* Agrega estilos para el contenedor general */
+.division {
+  padding-top: 20px;
+  height: 20%;
+  align-items: center;
+  display: inline;
+}
+
+.ali433 {
+  /* background-color: #007bff; */
+  color: #fff;
+  position: absolute;
+  padding: 10px;
+  left: 16cm;
+  display: inline-block;
+  border-radius: 10px;
+  height: 78%;
+}
+
+.po {
+  background-color: #2e5a7b;
+  border: solid cornsilk 5px;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  opacity: 100%;
+}
+
+.dfi {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 5px 5px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 100%;
+}
+
+.dfc {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 0px;
+  padding: 10px;
+  opacity: 100%;
+}
+
+.dfd {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 5px;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: 100%;
+}
+
+.mcd {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk 5px;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 100%;
+}
+
+.mcdd {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: 100%;
+
+}
+
+.mcdi {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 5px 5px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 100%;
+
+}
+
+.mc {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 100%;
+}
+
+.mco {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 0px;
+  padding: 10px;
+  /* border-radius: 10px; */
+  opacity: 100%;
+}
+
+.mc_i {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 5px 5px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 100%;
+}
+
+.mc_d {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 5px;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: 100%;
+}
+
+.mi {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 5px 5px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 100%;
+}
+
+.md {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 5px;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: 100%;
+}
+
+.dc {
+  background-color: #2e5a7b;
+  color: #fff;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 0px;
+  padding: 10px;
+  opacity: 100%;
+}
+
+.dl {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk 5px;
+  border-radius: 10px;
+  opacity: 100%;
+}
+
+.di {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 5px 5px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  opacity: 100%;
+}
+
+.dd {
+  background-color: #2e5a7b;
+  color: #fff;
+  padding: 10px;
+  border: solid cornsilk;
+  border-width: 5px 0px 5px 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  opacity: 100%;
+}
+
+/* Agrega estilos para el contenedor de los jugadores */
+.players {
+  position: absolute;
+  padding: 5px;
+  left: 16cm;
+  bottom: 13cm;
+  border-radius: 10px;
+}
+
+.icono {
+  width: 75px;
+}
+
+select{
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  max-width: 100px;
+}
+
+select:focus{
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 90%; /* Reducir el ancho del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 5px; /* Reducir el espacio interno */
+  }
+
+  .selection {
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Añadir más espacio interno */
+  }
+  .selection label,
+  .selection select,
+  .selection input {
+    display: block;
+    margin: 10px auto; /* Centrar verticalmente */
+  }
+
+  .players {
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Añadir más espacio interno */
+  }
+  .player-container img {
+    width: 40px;
+    height: 40px; /* Aumentar el tamaño de las imágenes de los jugadores */
+  }
+  .players .row {
+    margin: 10px auto; /* Centrar verticalmente */
+  }
+
+  .player-container img {
+    width: 30px;
+    height: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .logo img {
+      width: 30px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .soccer img {
+      max-width: 100%; /* Asegurar que la imagen se ajuste al ancho del contenedor */
+      height: auto; /* Mantener la proporción original de la imagen */
+    }
+  
+    .selection {
+      text-align: center; /* Centrar el contenido */
+      padding: 15px; /* Ajustar el espacio interno */
+    }
+    .selection label,
+    .selection select,
+    .selection input {
+      display: block;
+      margin: 5px auto; /* Centrar verticalmente */
+    }
+  
+   .players {
+      text-align: center; /* Centrar el contenido */
+      padding: 15px; /* Ajustar el espacio interno */
+    }
+    .player-container img {
+      width: 30px;
+      height: 30px; /* Aumentar el tamaño de las imágenes de los jugadores */
+    }
+    .players .row {
+      margin: 5px auto; /* Centrar verticalmente */
+    }
+  
+    .player-container img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .field-container {
+      text-align: center; /* Centrar el contenido */
+      margin-top: 15px; /* Ajustar el margen superior */
+    }
+  
+    .soccer {
+      text-align: center; /* Centrar el contenido */
+      padding: 15px; /* Ajustar el espacio interno */
+    }
+  
+    .player-image {
+      /* Ajustes para la posición de las imágenes de los jugadores en dispositivos móviles */
+      /* Por ejemplo: */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  }
+
+  /* Utilizar unidades relativas y evitar posiciones absolutas */
+.container {
+  width: 100%; /* O cualquier ancho deseado */
+  max-width: 1200px; /* Establece un ancho máximo para evitar que el contenido se vuelva demasiado ancho */
+  margin: 0 auto; /* Centra el contenido horizontalmente */
+}
